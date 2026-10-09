@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "StudentId": "2210001",
+      "LastNameAndMiddleName": "Nguyễn Văn",
+      "FirstName": "An",
+      "BirthDate": "2004-03-15",
+      "Gender": 0,
+      "IdentityNumber": "123456789",
+      "Address": "TP. Hồ Chí Minh",
+      "ClassName": "CTK46",
+      "PhoneNumber": "0901234567",
+      "Subjects": ["Mạng máy tính", "Hệ điều hành"]
+    },
+    {
+      "StudentId": "2310002",
+      "LastNameAndMiddleName": "Trần Thị",
+      "FirstName": "Bình",
+      "BirthDate": "2005-08-20",
+      "Gender": 1,
+      "IdentityNumber": "987654321",
+      "Address": "Đà Nẵng",
+      "ClassName": "CTK47",
+      "PhoneNumber": "0912345678",
+      "Subjects": ["Lập trình CSDL", "An toàn và bảo mật hệ thống"]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>ChuDe3.StudentManager</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <None Update="Data\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="SubjectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SubjectDialog.Designer.cs">
+      <DependentUpon>SubjectDialog.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

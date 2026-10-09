@@ -1,0 +1,3 @@
+Chủ đề 3 - Thao tác tập tin
+File.WriteAllLines ghi các dòng UTF-8.
+File.ReadAllLines đọc lại dữ liệu đã lưu.

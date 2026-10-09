@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>ChuDe3.JsonFileDemo</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <None Update="Data\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="JsonDemoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="JsonDemoForm.Designer.cs">
+      <DependentUpon>JsonDemoForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>
